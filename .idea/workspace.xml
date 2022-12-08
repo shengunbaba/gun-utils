@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="67c6c352-f875-456f-8205-68855fdebc8f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cloneDeep/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cloneDeep/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cloneDeep/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cloneDeep/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cloneDeep/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/kindOf/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/kindOf/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kindOf/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/kindOf/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kindOf/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +103,7 @@
       <workItem from="1670393224644" duration="3019000" />
       <workItem from="1670461435979" duration="7157000" />
       <workItem from="1670471076619" duration="1856000" />
-      <workItem from="1670482139842" duration="4461000" />
+      <workItem from="1670482139842" duration="4631000" />
     </task>
     <servers />
   </component>

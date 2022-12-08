@@ -1,1 +1,1 @@
-## npm install @gun/clonedeep
+## npm install @shengunba/clonedeep

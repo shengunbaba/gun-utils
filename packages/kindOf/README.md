@@ -1,1 +1,1 @@
-## npm install @gun/kindof
+## npm install @shengunba/kindof
