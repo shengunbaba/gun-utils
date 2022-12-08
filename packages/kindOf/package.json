@@ -1,6 +1,6 @@
 {
-  "name": "@gun/kindof",
-  "version": "0.0.7",
+  "name": "@shengunba/kindof",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/kindOf.js",
   "module": "esm/kindOf.js",
@@ -12,5 +12,5 @@
   },
   "author": "",
   "license": "CC0-1.0",
-  "gitHead": "ca8dec9d4d80a7cca0e269a70c0e409277dc4a44"
+  "gitHead": "db2d89bf354907af03013bf25766f8336342c6ad"
 }
