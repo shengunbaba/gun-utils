@@ -14,9 +14,9 @@ function cloneArray<T>(value: T[]): T[] {
     return newArr
 }
 
-// function cloneObject<T>(value: T): T {
-//
-// }
+function cloneObject<T>(value: T): T {
+
+}
 
 
 export default function cloneDeep<T>(value: T): T {
