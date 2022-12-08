@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67c6c352-f875-456f-8205-68855fdebc8f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lerna.json" beforeDir="false" afterPath="$PROJECT_DIR$/lerna.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cloneDeep/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cloneDeep/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/kindOf/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kindOf/package.json" afterDir="false" />
     </list>
@@ -103,7 +101,7 @@
       <workItem from="1670393224644" duration="3019000" />
       <workItem from="1670461435979" duration="7157000" />
       <workItem from="1670471076619" duration="1856000" />
-      <workItem from="1670482139842" duration="2297000" />
+      <workItem from="1670482139842" duration="3517000" />
     </task>
     <servers />
   </component>
