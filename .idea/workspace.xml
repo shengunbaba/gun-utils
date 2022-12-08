@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="67c6c352-f875-456f-8205-68855fdebc8f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IJ3qwoVIYyiRiRFJGaZhqU0vcW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/reactzh/myProject/gun-utils/packages/cloneDeep&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/reactzh/myProject/gun-utils/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/cloneDeep" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/packages/kindOf" />
+      <recent name="$PROJECT_DIR$/demo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/kindOf/__test__" />
+      <recent name="$PROJECT_DIR$/packages/kindOf" />
+      <recent name="$PROJECT_DIR$/packages/cloneDeep/lib" />
+      <recent name="$PROJECT_DIR$/packages/kindOf/lib" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67c6c352-f875-456f-8205-68855fdebc8f" name="Changes" comment="" />
+      <created>1669886053621</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669886053621</updated>
+      <workItem from="1669886054728" duration="2975000" />
+      <workItem from="1669946063661" duration="12944000" />
+      <workItem from="1670203381861" duration="360000" />
+      <workItem from="1670219330770" duration="85000" />
+      <workItem from="1670219418653" duration="190000" />
+      <workItem from="1670219611326" duration="67000" />
+      <workItem from="1670219680772" duration="41000" />
+      <workItem from="1670219725988" duration="495000" />
+      <workItem from="1670220245868" duration="1860000" />
+      <workItem from="1670222189640" duration="3539000" />
+      <workItem from="1670289039649" duration="4843000" />
+      <workItem from="1670311822002" duration="26000" />
+      <workItem from="1670311853363" duration="218000" />
+      <workItem from="1670317942160" duration="486000" />
+      <workItem from="1670318471344" duration="35000" />
+      <workItem from="1670318508713" duration="3920000" />
+      <workItem from="1670375444777" duration="1866000" />
+      <workItem from="1670378187049" duration="2462000" />
+      <workItem from="1670380740601" duration="3112000" />
+      <workItem from="1670391203238" duration="680000" />
+      <workItem from="1670393224644" duration="3019000" />
+      <workItem from="1670461435979" duration="7157000" />
+      <workItem from="1670471076619" duration="1856000" />
+      <workItem from="1670482139842" duration="485000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

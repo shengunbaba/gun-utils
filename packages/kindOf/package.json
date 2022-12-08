@@ -1,0 +1,17 @@
+{
+  "name": "@gun/kindof",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/kindOf.js",
+  "module": "esm/kindOf.js",
+  "scripts": {
+    "clean": "rm -rf dist && rm -rf esm",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "build": "run-p build:cjs build:esm"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@gun/clonedeep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/cloneDeep.js",
+  "module": "esm/cloneDeep.js",
+  "scripts": {
+    "clean": "rm -rf dist && rm -rf esm",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "build": "run-p build:cjs build:esm"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@gun/kindof": "^1.0.0"
+  }
+}
