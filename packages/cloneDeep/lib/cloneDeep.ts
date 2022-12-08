@@ -1,4 +1,4 @@
-import kindOf from '@gun/kindof';
+import kindOf from '@sgun/kindof';
 
 const base = ['string', 'number', 'undefined', 'boolean', 'null'];
 
@@ -6,7 +6,7 @@ function cloneBase<T>(value: T): T {
     return value;
 }
 
-function cloneArray<T>(value: T[]): T[] {
+function cloneArray<T>(value: T): T {
     const newArr = []
     for (const item of value) {
         newArr.push(cloneDeep(item))

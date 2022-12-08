@@ -7,7 +7,7 @@
   "useWorkspaces": true,
   "command": {
     "run": {
-      "npmClient": "npm"
+      "npmClient": "yarn"
     }
   },
   "access": "public"

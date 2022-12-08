@@ -1545,6 +1545,9 @@
   dependencies:
     esquery "^1.0.1"
 
+"@sgun/kindof@^0.0.10":
+  version "0.0.11"
+
 "@sinclair/typebox@^0.24.1":
   version "0.24.51"
   resolved "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.24.51.tgz#645f33fe4e02defe26f2f5c0410e1c094eac7f5f"
