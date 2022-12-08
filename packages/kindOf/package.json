@@ -1,5 +1,5 @@
 {
-  "name": "@shengunba/kindof",
+  "name": "@sgun/kindof",
   "version": "0.0.10",
   "description": "",
   "main": "dist/kindOf.js",

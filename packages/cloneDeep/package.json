@@ -1,5 +1,5 @@
 {
-  "name": "@shengunba/clonedeep",
+  "name": "@sgun/clonedeep",
   "version": "0.0.10",
   "description": "",
   "main": "dist/cloneDeep.js",
