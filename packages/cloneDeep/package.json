@@ -1,6 +1,6 @@
 {
   "name": "@shengunba/clonedeep",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "",
   "main": "dist/cloneDeep.js",
   "module": "esm/cloneDeep.js",
@@ -13,7 +13,7 @@
   "author": "",
   "license": "CC0-1.0",
   "dependencies": {
-    "@shengunba/kindof": "^0.0.8"
+    "@shengunba/kindof": "^0.0.9"
   },
   "gitHead": "55eb2c61fc52a417092b206f5f1470b90db6fb08"
 }
