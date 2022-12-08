@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67c6c352-f875-456f-8205-68855fdebc8f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cloneDeep/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cloneDeep/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/kindOf/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kindOf/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lerna.json" beforeDir="false" afterPath="$PROJECT_DIR$/lerna.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cloneDeep/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cloneDeep/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/kindOf/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/kindOf/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,24 +44,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/reactzh/myProject/gun-utils/packages/cloneDeep&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/reactzh/myProject/gun-utils/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/reactzh/myProject/gun-utils/packages/kindOf",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "/Users/reactzh/myProject/gun-utils/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/kindOf" />
       <recent name="$PROJECT_DIR$/packages/cloneDeep" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/packages/kindOf" />
       <recent name="$PROJECT_DIR$/demo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -101,7 +103,7 @@
       <workItem from="1670393224644" duration="3019000" />
       <workItem from="1670461435979" duration="7157000" />
       <workItem from="1670471076619" duration="1856000" />
-      <workItem from="1670482139842" duration="1857000" />
+      <workItem from="1670482139842" duration="2297000" />
     </task>
     <servers />
   </component>
