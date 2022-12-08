@@ -1,6 +1,6 @@
 {
   "name": "@gun/clonedeep",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/cloneDeep.js",
   "module": "esm/cloneDeep.js",
@@ -13,7 +13,7 @@
   "author": "",
   "license": "CC0-1.0",
   "dependencies": {
-    "@gun/kindof": "^0.0.1"
+    "@gun/kindof": "^0.0.3"
   },
   "gitHead": "2914fcb161de453987493c6c9eb978fd17aa16f9"
 }
