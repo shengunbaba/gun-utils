@@ -1,6 +1,6 @@
 {
   "name": "@sgun/clonedeep",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "",
   "main": "dist/cloneDeep.js",
   "module": "esm/cloneDeep.js",
