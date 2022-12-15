@@ -1,30 +1,24 @@
-import kindOf from '@gun/kindof';
-const base = ['string', 'number', 'undefined', 'boolean', 'null'];
-function cloneBase(value) {
-    return value;
+import kindOf from '@sgun/kindof';
+function cloneArray(value) {
+    const newArr = [];
+    for (const item of value) {
+        newArr.push(cloneDeep(item));
+    }
+    return newArr;
 }
-// function cloneArray<T>(value: T[]): T[] {
-//     const newArr = []
-//     for (const item of value) {
-//         newArr.push(cloneDeep(item))
-//     }
-//     return newArr
-// }
-//
-// function cloneObject<T>(value: T): T {
-//
-// }
+function cloneObject(value) {
+    const newObj = {};
+    for (const k in value) {
+        newObj[k] = cloneDeep(value[k]);
+    }
+    return newObj;
+}
 export default function cloneDeep(value) {
-    if (base.includes(kindOf(value))) {
-        return cloneBase(value);
+    if (kindOf(value) === 'array') {
+        return cloneArray(value);
+    }
+    if (kindOf(value) === 'object') {
+        return cloneObject(value);
     }
     return value;
-    //
-    // if (kindOf(value) === 'array') {
-    //     // return cloneArray(value)
-    // }
-    //
-    // if (kindOf(value) === 'object') {
-    //
-    // }
 }

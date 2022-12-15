@@ -1,37 +1,29 @@
 import kindOf from '@sgun/kindof';
 
-const base = ['string', 'number', 'undefined', 'boolean', 'null'];
-
-function cloneBase<T>(value: T): T {
-    return value;
-}
-
 function cloneArray<T>(value: T): T {
     const newArr = []
-    for (const item of value) {
+    for (const item of value as Array<any>) {
         newArr.push(cloneDeep(item))
     }
-    return newArr
+    return newArr as T
 }
 
 function cloneObject<T>(value: T): T {
-
+    const newObj: Record<string, any> = {};
+    for (const k in value) {
+        newObj[k] = cloneDeep(value[k])
+    }
+    return newObj as T
 }
 
-
 export default function cloneDeep<T>(value: T): T {
-
-    if (base.includes(kindOf(value))) {
-        return cloneBase(value);
-    }
-
     if (kindOf(value) === 'array') {
         return cloneArray(value)
     }
-
     if (kindOf(value) === 'object') {
-
+        return cloneObject(value)
     }
+    return value
 }
 
 

@@ -1,3 +1,2 @@
-type Ret = 'undefined' | 'string' | 'number' | 'null' | 'symbol' | 'boolean' | 'array' | 'function' | 'object' | 'unKnow';
-export default function kindOf<T>(value: T): Ret;
-export {};
+export type KindOf = undefined | 'undefined' | 'string' | 'number' | 'null' | 'symbol' | 'boolean' | 'array' | 'function' | 'generatorFunction' | 'buffer' | 'date' | 'error' | 'regexp' | 'promise' | 'weakMap' | 'weakSet' | 'map' | 'set' | 'int8array' | 'uint8array' | 'uint8ClampedArray' | 'int16array' | 'uint16array' | 'int32array' | 'uint32array' | 'float32array' | 'float64array' | 'object' | 'mapIterator' | 'setIterator' | 'stringIterator' | 'arrayIterator';
+export default function kindOf<T>(value: T): KindOf;

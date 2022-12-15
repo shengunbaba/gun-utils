@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+<body>
+<script>
+    class A {
+        constructor() {
+            this.a = 'a';
+        }
+
+        get aa() {
+            return 'aa';
+        }
+    }
+
+    class B extends A {
+        constructor(props) {
+            super(props);
+            this.b = 'b';
+
+            Object.defineProperty(this, 'bbb', {
+                value: 'bbb',
+                enumerable: false,
+                writable: false,
+            });
+        }
+
+        get bb() {
+            return 'bb';
+        }
+
+        info() {
+            return 'im B';
+        }
+    }
+
+    const b = new B();
+
+    for (const k in b) {
+        console.log(k);
+    }
+
+    console.log(b);
+
+    console.log(Object.getPrototypeOf(b));
+    console.log(Object.keys(b));
+
+    console.log(Object.getOwnPropertyNames(b));
+
+    console.log(Object.getOwnPropertySymbols(b));
+
+    // ......................................................
+
+    // function ParentClass() {}
+    // ParentClass.prototype.inheritedMethod = function() {};
+    //
+    // function ChildClass() {
+    //     this.prop = 5;
+    //     this.method = function() {};
+    // }
+    //
+    // ChildClass.prototype = new ParentClass;
+    // ChildClass.prototype.prototypeMethod = function() {};
+    //
+    // console.log(
+    //     Object.getOwnPropertyNames(
+    //         new ChildClass()  // ["prop", "method"]
+    //     )
+    // );
+    //
+    // for (const k in  new ChildClass()  ){
+    //     console.log(k)
+    // }
+
+    // ....................................
+
+    // const s = Symbol('a');
+    // const obj = {
+    //     [s]: '111',
+    //     a: 11,
+    //     b: s,
+    // };
+    // console.log(Object.getOwnPropertySymbols(obj)[0]);
+    //
+    // for (const key in obj) {
+    //     console.log(key);
+    // }
+</script>
+</body>
+</html>
