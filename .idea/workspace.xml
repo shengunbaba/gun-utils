@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67c6c352-f875-456f-8205-68855fdebc8f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/packages/classx/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/classx/lib/classX.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/classx/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/classx/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/classx/tsconfig.cjs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/classx/tsconfig.esm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/classx/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cloneDeep/dist/cloneDeep.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cloneDeep/dist/cloneDeep.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cloneDeep/esm/cloneDeep.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cloneDeep/esm/cloneDeep.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cloneDeep/lib/cloneDeep.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cloneDeep/lib/cloneDeep.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cloneDeep/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cloneDeep/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +61,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/reactzh/myProject/gun-utils/packages/cloneDeep&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/reactzh/myProject/gun-utils/packages/classx&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -60,11 +73,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/classx" />
       <recent name="$PROJECT_DIR$/packages/cloneDeep" />
       <recent name="$PROJECT_DIR$/packages/cloneDeep/__test__" />
       <recent name="$PROJECT_DIR$/packages/kindOf" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/demo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/packages/kindOf" />
@@ -112,7 +125,14 @@
       <workItem from="1670891972295" duration="8807000" />
       <workItem from="1670989413305" duration="4261000" />
       <workItem from="1671069942988" duration="14852000" />
-      <workItem from="1671268753544" duration="66000" />
+      <workItem from="1671268753544" duration="236000" />
+      <workItem from="1671269029184" duration="37000" />
+      <workItem from="1673505103750" duration="526000" />
+      <workItem from="1673572614454" duration="1363000" />
+      <workItem from="1673577304552" duration="3000" />
+      <workItem from="1673577337643" duration="144000" />
+      <workItem from="1673577744911" duration="3291000" />
+      <workItem from="1673581481156" duration="9560000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1670491252688</created>

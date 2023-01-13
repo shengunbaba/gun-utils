@@ -1,9 +1,9 @@
 {
-  "name": "@sgun/clonedeep",
+  "name": "@sgun/classx",
   "version": "0.0.12",
   "description": "",
-  "main": "dist/cloneDeep.js",
-  "module": "esm/cloneDeep.js",
+  "main": "dist/classX.js",
+  "module": "esm/classX.js",
   "scripts": {
     "clean": "rm -rf dist && rm -rf esm",
     "build:cjs": "tsc -p tsconfig.cjs.json",
@@ -13,6 +13,5 @@
   "author": "",
   "license": "CC0-1.0",
   "dependencies": {
-  },
-  "gitHead": "983e63057c90836ebab01f5123c112ab33396202"
+  }
 }

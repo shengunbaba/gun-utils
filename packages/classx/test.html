@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+<body>
+<script type="module">
+    import classX from './esm/classX.js';
+
+    console.log(classX('cls1'));
+    console.log(classX('cls1', {cls2: true}));
+    console.log(classX('cls1', ['cls2', {cls3: false}]));
+    console.log(classX('cls1', ['cls2', {cls3: true, cls4: true}]));
+</script>
+</body>
+</html>

@@ -1,5 +1,3 @@
-import kindOf from '@sgun/kindof';
-
 function cloneArray<T>(value: T): T {
     const newArr = []
     for (const item of value as Array<any>) {
@@ -17,10 +15,10 @@ function cloneObject<T>(value: T): T {
 }
 
 export default function cloneDeep<T>(value: T): T {
-    if (kindOf(value) === 'array') {
+    if (Array.isArray(value)) {
         return cloneArray(value)
     }
-    if (kindOf(value) === 'object') {
+    if (typeof value === 'object') {
         return cloneObject(value)
     }
     return value
